@@ -25,6 +25,9 @@
 	</nav>
 	<div id="opacity">
 		<div id="header">
+			<h2><strong>"Damn it Roger, you're so asian."</strong></h2>
+			<h3><strong>- Dan</strong></h3>
+			<br><h3><strong>The start of a new legend.</strong></h4>
 		</div>
 	</div>
 	<div id="screen2">
@@ -49,6 +52,23 @@
 		</div>
 		<div id="body35">
 			<a class="weblink" href="../blog/index.php">WHOO</a>
+		</div>
+	</div>
+	<div id="screen5">
+		<div id="body4">
+			<h1>Contact</h1>
+			<div>
+				<label class="whitefont" for="username">Email: </label>
+				<input type="text" name="username" placeholder ="Email"/>
+			</div>
+			<div class="whitefont">
+			<!-- text area lets you inpur more text than label.  -->
+				<p><label class="whitefont" for="post">Message: </label>
+				<textarea name="post"></textarea>
+			</div>
+			<div>
+				<button type="submit">Submit</button>
+			</div>
 		</div>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
