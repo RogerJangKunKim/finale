@@ -106,8 +106,8 @@ body{
 	background-color: lightgreen;
 	margin-top: 0px;
 	height: 715px;
-	background-image: url(../img/taskypattern.png);
-	background: url(../img/taskypattern.png) no-repeat center center fixed; 
+	background-image: url(../img/darkwood.png);
+	background: url(../img/darkwood.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -170,12 +170,16 @@ body{
 	background-color: lightpink;
 	margin-top: 0px;
 	height: 715px;
-	/*background-image: url(../img/plaidnew.png);
-	background: url(../img/plaidnew.png) no-repeat center center fixed; */
+	background-image: url(../img/funk.jpg);
+	background: url(../img/funk.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100%;
+    color: black;
+}
+.whitefont{
+	color: white;
 }
 #body4{
 	padding-top: 50px;
@@ -220,6 +224,11 @@ body{
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 	}
+	#screen5{
+	background-image: url(../img/funk.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}
 	#body1{
 		width: 350px;
 		height: 530px;
@@ -246,4 +255,9 @@ body{
 		width: 350px;
 		height: 70px;
 		margin: 0px;
+	}
+	#body4{
+		width: 350px;
+		height: 530px;
+		padding-top: 100px;
 	}

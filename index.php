@@ -13,13 +13,13 @@
 	<nav class="projectlink1">
 		<ul class="projectlink2">
 			<li class="projectlink3">
-				<a class="projectlink4" href="#screen2"><strong>Project 1</strong></a>	
+				<a class="projectlink4" href="#screen2"><strong>Game</strong></a>	
 			</li>
 			<li class="projectlink3">
-				<a class="projectlink4" href="#screen3"><strong>Project 2</strong></a>	
+				<a class="projectlink4" href="#screen3"><strong>Instagram</strong></a>	
 			</li>
 			<li class="projectlink3">
-				<a class="projectlink4" href="#screen4"><strong>Project 3</strong></a>	
+				<a class="projectlink4" href="#screen4"><strong>Blog</strong></a>	
 			</li>
 		</ul>
 	</nav>
@@ -27,7 +27,7 @@
 		<div id="header">
 			<h2><strong>"Damn it Roger, you're so asian."</strong></h2>
 			<h3><strong>- Dan</strong></h3>
-			<br><h3><strong>The start of a new legend.</strong></h4>
+			<!-- <br><h3><strong>The start of a legend.</strong></h4> -->
 		</div>
 	</div>
 	<div id="screen2">
@@ -54,21 +54,25 @@
 			<a class="weblink" href="../blog/index.php">WHOO</a>
 		</div>
 	</div>
+	<?php 
+	require_once(__DIR__."/model/config.php");
+	?>
 	<div id="screen5">
 		<div id="body4">
-			<h1>Contact</h1>
-			<div>
-				<label class="whitefont" for="username">Email: </label>
-				<input type="text" name="username" placeholder ="Email"/>
-			</div>
-			<div class="whitefont">
-			<!-- text area lets you inpur more text than label.  -->
-				<p><label class="whitefont" for="post">Message: </label>
-				<textarea name="post"></textarea>
-			</div>
-			<div>
-				<button type="submit">Submit</button>
-			</div>
+			<h1 class="whitefont">Contact</h1>
+			<form method="post" action="<?php echo $path.'controller/create-post.php'; ?>">
+				<div>
+					<label class="whitefont" for="username">Email: </label>
+					<input type="text" name="username" placeholder ="Email"/>
+				</div>
+				<div class="whitefonts">
+				<!-- text area lets you inpur more text than label.  -->
+					<p><label class="whitefont" for="post">Message: </label>
+					<textarea name="post"></textarea>
+				</div>
+				<div>
+					<button type="submit">Submit</button>
+				</div>
 		</div>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
